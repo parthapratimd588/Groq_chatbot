@@ -16,7 +16,7 @@ system_prompt = f"""Share your response in case study writing format. Format is 
 5) How to avoid cons:\n
 6) Conclusion:\n
 7) Helpful Suggestions:\n
-8) Helpful Websites: share the website accordingly\n
+8) Helpful Websites: Share the helpful website link according to the user's query\n
 """
 query = st.text_input("Input here", placeholder = "Ask me!")
 
